@@ -1,0 +1,1903 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+SUMMARY:Day 1: Potion Bottle
+DESCRIPTION:Objective for Day 1:
+- Model the asset: Potion Bottle
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:1@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 1: Potion Bottle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+SUMMARY:Day 2: Wooden Crate
+DESCRIPTION:Objective for Day 2:
+- Model the asset: Wooden Crate
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:2@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 2: Wooden Crate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+SUMMARY:Day 3: Barrel
+DESCRIPTION:Objective for Day 3:
+- Model the asset: Barrel
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:3@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 3: Barrel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251203
+DTEND;VALUE=DATE:20251204
+SUMMARY:Day 4: Candles
+DESCRIPTION:Objective for Day 4:
+- Model the asset: Candles
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:4@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 4: Candles
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251204
+DTEND;VALUE=DATE:20251205
+SUMMARY:Day 5: Books (Set of 3)
+DESCRIPTION:Objective for Day 5:
+- Model the asset: Books (Set of 3)
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:5@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 5: Books (Set of 3)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+SUMMARY:Day 6: Rock Set
+DESCRIPTION:Objective for Day 6:
+- Model the asset: Rock Set
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:6@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 6: Rock Set
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251206
+DTEND;VALUE=DATE:20251207
+SUMMARY:Day 7: Grass & Flower Pack
+DESCRIPTION:Objective for Day 7:
+- Model the asset: Grass & Flower Pack
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Red
+UID:7@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 7: Grass & Flower Pack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:Day 8: Wooden Chair
+DESCRIPTION:Objective for Day 8:
+- Model the asset: Wooden Chair
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:8@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 8: Wooden Chair
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251208
+DTEND;VALUE=DATE:20251209
+SUMMARY:Day 9: Table
+DESCRIPTION:Objective for Day 9:
+- Model the asset: Table
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:9@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 9: Table
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+SUMMARY:Day 10: Treasure Chest
+DESCRIPTION:Objective for Day 10:
+- Model the asset: Treasure Chest
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:10@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 10: Treasure Chest
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+SUMMARY:Day 11: Old Lantern
+DESCRIPTION:Objective for Day 11:
+- Model the asset: Old Lantern
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:11@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 11: Old Lantern
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251212
+SUMMARY:Day 12: Anvil
+DESCRIPTION:Objective for Day 12:
+- Model the asset: Anvil
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:12@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 12: Anvil
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251212
+DTEND;VALUE=DATE:20251213
+SUMMARY:Day 13: Market Stall
+DESCRIPTION:Objective for Day 13:
+- Model the asset: Market Stall
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:13@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 13: Market Stall
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251213
+DTEND;VALUE=DATE:20251214
+SUMMARY:Day 14: Blacksmith Hammer
+DESCRIPTION:Objective for Day 14:
+- Model the asset: Blacksmith Hammer
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Blue
+UID:14@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 14: Blacksmith Hammer
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+SUMMARY:Day 15: Stylized Tree Stump
+DESCRIPTION:Objective for Day 15:
+- Model the asset: Stylized Tree Stump
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:15@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 15: Stylized Tree Stump
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251216
+SUMMARY:Day 16: Stylized Food Pack
+DESCRIPTION:Objective for Day 16:
+- Model the asset: Stylized Food Pack
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:16@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 16: Stylized Food Pack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20251217
+SUMMARY:Day 17: Stylized Shield
+DESCRIPTION:Objective for Day 17:
+- Model the asset: Stylized Shield
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:17@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 17: Stylized Shield
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251217
+DTEND;VALUE=DATE:20251218
+SUMMARY:Day 18: Stylized Signpost
+DESCRIPTION:Objective for Day 18:
+- Model the asset: Stylized Signpost
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:18@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 18: Stylized Signpost
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251218
+DTEND;VALUE=DATE:20251219
+SUMMARY:Day 19: Sci-Fi Crate
+DESCRIPTION:Objective for Day 19:
+- Model the asset: Sci-Fi Crate
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:19@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 19: Sci-Fi Crate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251219
+DTEND;VALUE=DATE:20251220
+SUMMARY:Day 20: Sci-Fi Pistol
+DESCRIPTION:Objective for Day 20:
+- Model the asset: Sci-Fi Pistol
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:20@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 20: Sci-Fi Pistol
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251220
+DTEND;VALUE=DATE:20251221
+SUMMARY:Day 21: Hover Drone
+DESCRIPTION:Objective for Day 21:
+- Model the asset: Hover Drone
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Green
+UID:21@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 21: Hover Drone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+SUMMARY:Day 22: Wooden Cart
+DESCRIPTION:Objective for Day 22:
+- Model the asset: Wooden Cart
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:22@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 22: Wooden Cart
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DTEND;VALUE=DATE:20251223
+SUMMARY:Day 23: Tent
+DESCRIPTION:Objective for Day 23:
+- Model the asset: Tent
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:23@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 23: Tent
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DTEND;VALUE=DATE:20251224
+SUMMARY:Day 24: Minecart
+DESCRIPTION:Objective for Day 24:
+- Model the asset: Minecart
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:24@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 24: Minecart
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+SUMMARY:Day 25: Dock
+DESCRIPTION:Objective for Day 25:
+- Model the asset: Dock
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:25@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 25: Dock
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251225
+DTEND;VALUE=DATE:20251226
+SUMMARY:Day 26: Fireplace
+DESCRIPTION:Objective for Day 26:
+- Model the asset: Fireplace
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:26@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 26: Fireplace
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251227
+SUMMARY:Day 27: Medieval Sword
+DESCRIPTION:Objective for Day 27:
+- Model the asset: Medieval Sword
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:27@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 27: Medieval Sword
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251227
+DTEND;VALUE=DATE:20251228
+SUMMARY:Day 28: Fantasy Staff
+DESCRIPTION:Objective for Day 28:
+- Model the asset: Fantasy Staff
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Yellow
+UID:28@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 28: Fantasy Staff
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251228
+DTEND;VALUE=DATE:20251229
+SUMMARY:Day 29: Medieval House
+DESCRIPTION:Objective for Day 29:
+- Model the asset: Medieval House
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:29@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 29: Medieval House
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DTEND;VALUE=DATE:20251230
+SUMMARY:Day 30: Sci-Fi Door
+DESCRIPTION:Objective for Day 30:
+- Model the asset: Sci-Fi Door
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:30@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 30: Sci-Fi Door
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251230
+DTEND;VALUE=DATE:20251231
+SUMMARY:Day 31: War Axe
+DESCRIPTION:Objective for Day 31:
+- Model the asset: War Axe
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:31@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 31: War Axe
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:Day 32: Crossbow
+DESCRIPTION:Objective for Day 32:
+- Model the asset: Crossbow
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:32@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 32: Crossbow
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:Day 33: Spear
+DESCRIPTION:Objective for Day 33:
+- Model the asset: Spear
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:33@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 33: Spear
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260102
+DTEND;VALUE=DATE:20260103
+SUMMARY:Day 34: Grenade
+DESCRIPTION:Objective for Day 34:
+- Model the asset: Grenade
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:34@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 34: Grenade
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+SUMMARY:Day 35: Katana
+DESCRIPTION:Objective for Day 35:
+- Model the asset: Katana
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Purple
+UID:35@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 35: Katana
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260104
+DTEND;VALUE=DATE:20260105
+SUMMARY:Day 36: Chainsaw
+DESCRIPTION:Objective for Day 36:
+- Model the asset: Chainsaw
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:36@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 36: Chainsaw
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:Day 37: Wrench
+DESCRIPTION:Objective for Day 37:
+- Model the asset: Wrench
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:37@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 37: Wrench
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:Day 38: Drill Machine
+DESCRIPTION:Objective for Day 38:
+- Model the asset: Drill Machine
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:38@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 38: Drill Machine
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:Day 39: Welding Tank
+DESCRIPTION:Objective for Day 39:
+- Model the asset: Welding Tank
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:39@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 39: Welding Tank
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DTEND;VALUE=DATE:20260109
+SUMMARY:Day 40: Factory Valve
+DESCRIPTION:Objective for Day 40:
+- Model the asset: Factory Valve
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:40@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 40: Factory Valve
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:Day 41: Scrolls
+DESCRIPTION:Objective for Day 41:
+- Model the asset: Scrolls
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:41@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 41: Scrolls
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260111
+SUMMARY:Day 42: Ceiling Lamp
+DESCRIPTION:Objective for Day 42:
+- Model the asset: Ceiling Lamp
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Orange
+UID:42@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 42: Ceiling Lamp
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260112
+SUMMARY:Day 43: Rug
+DESCRIPTION:Objective for Day 43:
+- Model the asset: Rug
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:43@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 43: Rug
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:Day 44: Couch
+DESCRIPTION:Objective for Day 44:
+- Model the asset: Couch
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:44@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 44: Couch
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:Day 45: Curtains
+DESCRIPTION:Objective for Day 45:
+- Model the asset: Curtains
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:45@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 45: Curtains
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+SUMMARY:Day 46: Wall Clock
+DESCRIPTION:Objective for Day 46:
+- Model the asset: Wall Clock
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:46@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 46: Wall Clock
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:Day 47: Bed
+DESCRIPTION:Objective for Day 47:
+- Model the asset: Bed
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:47@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 47: Bed
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:Day 48: Bookshelf
+DESCRIPTION:Objective for Day 48:
+- Model the asset: Bookshelf
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:48@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 48: Bookshelf
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY:Day 49: Fireplace Tools
+DESCRIPTION:Objective for Day 49:
+- Model the asset: Fireplace Tools
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Teal
+UID:49@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 49: Fireplace Tools
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260118
+DTEND;VALUE=DATE:20260119
+SUMMARY:Day 50: Toolbox
+DESCRIPTION:Objective for Day 50:
+- Model the asset: Toolbox
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:50@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 50: Toolbox
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:Day 51: Realistic Tree
+DESCRIPTION:Objective for Day 51:
+- Model the asset: Realistic Tree
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:51@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 51: Realistic Tree
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:Day 52: Bushes
+DESCRIPTION:Objective for Day 52:
+- Model the asset: Bushes
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:52@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 52: Bushes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:Day 53: Fallen Log
+DESCRIPTION:Objective for Day 53:
+- Model the asset: Fallen Log
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:53@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 53: Fallen Log
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:Day 54: Palm Tree
+DESCRIPTION:Objective for Day 54:
+- Model the asset: Palm Tree
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:54@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 54: Palm Tree
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:Day 55: Muddy Ground
+DESCRIPTION:Objective for Day 55:
+- Model the asset: Muddy Ground
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:55@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 55: Muddy Ground
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260124
+DTEND;VALUE=DATE:20260125
+SUMMARY:Day 56: Well Stones
+DESCRIPTION:Objective for Day 56:
+- Model the asset: Well Stones
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gray
+UID:56@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 56: Well Stones
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260125
+DTEND;VALUE=DATE:20260126
+SUMMARY:Day 57: Flower Pack
+DESCRIPTION:Objective for Day 57:
+- Model the asset: Flower Pack
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:57@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 57: Flower Pack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+SUMMARY:Day 58: Cave Entrance
+DESCRIPTION:Objective for Day 58:
+- Model the asset: Cave Entrance
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:58@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 58: Cave Entrance
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+SUMMARY:Day 59: Rock Wall
+DESCRIPTION:Objective for Day 59:
+- Model the asset: Rock Wall
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:59@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 59: Rock Wall
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:Day 60: Forest Debris Pack
+DESCRIPTION:Objective for Day 60:
+- Model the asset: Forest Debris Pack
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:60@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 60: Forest Debris Pack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260130
+SUMMARY:Day 61: Stone Bridge
+DESCRIPTION:Objective for Day 61:
+- Model the asset: Stone Bridge
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:61@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 61: Stone Bridge
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260131
+SUMMARY:Day 62: Broken Pillar
+DESCRIPTION:Objective for Day 62:
+- Model the asset: Broken Pillar
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:62@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 62: Broken Pillar
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260201
+SUMMARY:Day 63: Watchtower
+DESCRIPTION:Objective for Day 63:
+- Model the asset: Watchtower
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Pink
+UID:63@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 63: Watchtower
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260202
+SUMMARY:Day 64: Gate Archway
+DESCRIPTION:Objective for Day 64:
+- Model the asset: Gate Archway
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:64@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 64: Gate Archway
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:Day 65: Medieval Oven
+DESCRIPTION:Objective for Day 65:
+- Model the asset: Medieval Oven
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:65@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 65: Medieval Oven
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:Day 66: Old Shack
+DESCRIPTION:Objective for Day 66:
+- Model the asset: Old Shack
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:66@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 66: Old Shack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+SUMMARY:Day 67: Wooden Fence Set
+DESCRIPTION:Objective for Day 67:
+- Model the asset: Wooden Fence Set
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:67@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 67: Wooden Fence Set
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:Day 68: Stone Wall
+DESCRIPTION:Objective for Day 68:
+- Model the asset: Stone Wall
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:68@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 68: Stone Wall
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260207
+SUMMARY:Day 69: Bridge
+DESCRIPTION:Objective for Day 69:
+- Model the asset: Bridge
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:69@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 69: Bridge
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:Day 70: Castle Gate
+DESCRIPTION:Objective for Day 70:
+- Model the asset: Castle Gate
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Brown
+UID:70@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 70: Castle Gate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
+SUMMARY:Day 71: Stylized Rocks
+DESCRIPTION:Objective for Day 71:
+- Model the asset: Stylized Rocks
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:71@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 71: Stylized Rocks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:Day 72: Stylized Crystals
+DESCRIPTION:Objective for Day 72:
+- Model the asset: Stylized Crystals
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:72@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 72: Stylized Crystals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+SUMMARY:Day 73: Stylized Barrel
+DESCRIPTION:Objective for Day 73:
+- Model the asset: Stylized Barrel
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:73@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 73: Stylized Barrel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+SUMMARY:Day 74: Stylized Sword
+DESCRIPTION:Objective for Day 74:
+- Model the asset: Stylized Sword
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:74@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 74: Stylized Sword
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260212
+DTEND;VALUE=DATE:20260213
+SUMMARY:Day 75: Stylized Shield Variant
+DESCRIPTION:Objective for Day 75:
+- Model the asset: Stylized Shield Variant
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:75@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 75: Stylized Shield Variant
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260213
+DTEND;VALUE=DATE:20260214
+SUMMARY:Day 76: Stylized Cauldron
+DESCRIPTION:Objective for Day 76:
+- Model the asset: Stylized Cauldron
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:76@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 76: Stylized Cauldron
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260215
+SUMMARY:Day 77: Stylized House
+DESCRIPTION:Objective for Day 77:
+- Model the asset: Stylized House
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Indigo
+UID:77@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 77: Stylized House
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:Day 78: Stylized Bench
+DESCRIPTION:Objective for Day 78:
+- Model the asset: Stylized Bench
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:78@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 78: Stylized Bench
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Day 79: Stylized Food Set 2
+DESCRIPTION:Objective for Day 79:
+- Model the asset: Stylized Food Set 2
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:79@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 79: Stylized Food Set 2
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:Day 80: Stylized Tree Variant
+DESCRIPTION:Objective for Day 80:
+- Model the asset: Stylized Tree Variant
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:80@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 80: Stylized Tree Variant
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Day 81: Sci-Fi Door Variant
+DESCRIPTION:Objective for Day 81:
+- Model the asset: Sci-Fi Door Variant
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:81@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 81: Sci-Fi Door Variant
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+SUMMARY:Day 82: Control Panel
+DESCRIPTION:Objective for Day 82:
+- Model the asset: Control Panel
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:82@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 82: Control Panel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+SUMMARY:Day 83: Space Helmet
+DESCRIPTION:Objective for Day 83:
+- Model the asset: Space Helmet
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:83@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 83: Space Helmet
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260221
+DTEND;VALUE=DATE:20260222
+SUMMARY:Day 84: Generator Machine
+DESCRIPTION:Objective for Day 84:
+- Model the asset: Generator Machine
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Cyan
+UID:84@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 84: Generator Machine
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:Day 85: Fuel Canister
+DESCRIPTION:Objective for Day 85:
+- Model the asset: Fuel Canister
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:85@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 85: Fuel Canister
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:Day 86: Teleporter Pad
+DESCRIPTION:Objective for Day 86:
+- Model the asset: Teleporter Pad
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:86@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 86: Teleporter Pad
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260224
+DTEND;VALUE=DATE:20260225
+SUMMARY:Day 87: Sci-Fi Corridor Wall
+DESCRIPTION:Objective for Day 87:
+- Model the asset: Sci-Fi Corridor Wall
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:87@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 87: Sci-Fi Corridor Wall
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260226
+SUMMARY:Day 88: Energy Sword
+DESCRIPTION:Objective for Day 88:
+- Model the asset: Energy Sword
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:88@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 88: Energy Sword
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+SUMMARY:Day 89: Sci-Fi Drone Variant
+DESCRIPTION:Objective for Day 89:
+- Model the asset: Sci-Fi Drone Variant
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:89@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 89: Sci-Fi Drone Variant
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
+SUMMARY:Day 90: Greeble Pack
+DESCRIPTION:Objective for Day 90:
+- Model the asset: Greeble Pack
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:90@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 90: Greeble Pack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+SUMMARY:Day 91: Old Radio
+DESCRIPTION:Objective for Day 91:
+- Model the asset: Old Radio
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Olive
+UID:91@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 91: Old Radio
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:Day 92: Laptop
+DESCRIPTION:Objective for Day 92:
+- Model the asset: Laptop
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:92@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 92: Laptop
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+SUMMARY:Day 93: Mobile Phone
+DESCRIPTION:Objective for Day 93:
+- Model the asset: Mobile Phone
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:93@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 93: Mobile Phone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+SUMMARY:Day 94: CCTV Camera
+DESCRIPTION:Objective for Day 94:
+- Model the asset: CCTV Camera
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:94@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 94: CCTV Camera
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260305
+SUMMARY:Day 95: Router
+DESCRIPTION:Objective for Day 95:
+- Model the asset: Router
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:95@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 95: Router
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+SUMMARY:Day 96: VR Headset
+DESCRIPTION:Objective for Day 96:
+- Model the asset: VR Headset
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:96@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 96: VR Headset
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:Day 97: Headphones
+DESCRIPTION:Objective for Day 97:
+- Model the asset: Headphones
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:97@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 97: Headphones
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:Day 98: Keyboard
+DESCRIPTION:Objective for Day 98:
+- Model the asset: Keyboard
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Maroon
+UID:98@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 98: Keyboard
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:Day 99: Mouse
+DESCRIPTION:Objective for Day 99:
+- Model the asset: Mouse
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gold
+UID:99@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 99: Mouse
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+SUMMARY:Day 100: Flash Drive
+DESCRIPTION:Objective for Day 100:
+- Model the asset: Flash Drive
+- UV unwrap cleanly (no stretching, consistent texel density)
+- Bake maps in Substance Painter
+- Texture to game-ready PBR standard
+- Export renders for ArtStation
+
+CATEGORIES:Gold
+UID:100@blenderchallenge
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder - Day 100: Flash Drive
+END:VALARM
+END:VEVENT
+END:VCALENDAR

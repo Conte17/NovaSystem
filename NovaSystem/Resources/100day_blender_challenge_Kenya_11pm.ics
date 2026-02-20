@@ -1,0 +1,804 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251129T230000
+DTEND:20251130T000000
+SUMMARY:Day 1: Potion Bottle – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 1\nAsset: Potion Bottle\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:2@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251130T230000
+DTEND:20251201T000000
+SUMMARY:Day 2: Wooden Crate – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 2\nAsset: Wooden Crate\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:3@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251201T230000
+DTEND:20251202T000000
+SUMMARY:Day 3: Barrel – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 3\nAsset: Barrel\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:4@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251202T230000
+DTEND:20251203T000000
+SUMMARY:Day 4: Candles – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 4\nAsset: Candles\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:5@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251203T230000
+DTEND:20251204T000000
+SUMMARY:Day 5: Books (Set of 3) – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 5\nAsset: Books (Set of 3)\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:6@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251204T230000
+DTEND:20251205T000000
+SUMMARY:Day 6: Rock Set – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 6\nAsset: Rock Set\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:7@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251205T230000
+DTEND:20251206T000000
+SUMMARY:Day 7: Grass & Flower Pack – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 7\nAsset: Grass & Flower Pack\nWeek Color: RED (#FF4A4A)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:8@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251206T230000
+DTEND:20251207T000000
+SUMMARY:Day 8: Wooden Chair – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 8\nAsset: Wooden Chair\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:9@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251207T230000
+DTEND:20251208T000000
+SUMMARY:Day 9: Table – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 9\nAsset: Table\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:10@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251208T230000
+DTEND:20251209T000000
+SUMMARY:Day 10: Treasure Chest – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 10\nAsset: Treasure Chest\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:11@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251209T230000
+DTEND:20251210T000000
+SUMMARY:Day 11: Old Lantern – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 11\nAsset: Old Lantern\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:12@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251210T230000
+DTEND:20251211T000000
+SUMMARY:Day 12: Anvil – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 12\nAsset: Anvil\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:13@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251211T230000
+DTEND:20251212T000000
+SUMMARY:Day 13: Market Stall – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 13\nAsset: Market Stall\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:14@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251212T230000
+DTEND:20251213T000000
+SUMMARY:Day 14: Blacksmith Hammer – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 14\nAsset: Blacksmith Hammer\nWeek Color: BLUE (#4287F5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:15@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251213T230000
+DTEND:20251214T000000
+SUMMARY:Day 15: Stylized Tree Stump – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 15\nAsset: Stylized Tree Stump\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:16@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251214T230000
+DTEND:20251215T000000
+SUMMARY:Day 16: Stylized Food Pack – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 16\nAsset: Stylized Food Pack\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:17@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251215T230000
+DTEND:20251216T000000
+SUMMARY:Day 17: Stylized Shield – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 17\nAsset: Stylized Shield\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:18@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251216T230000
+DTEND:20251217T000000
+SUMMARY:Day 18: Stylized Signpost – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 18\nAsset: Stylized Signpost\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:19@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251217T230000
+DTEND:20251218T000000
+SUMMARY:Day 19: Sci-Fi Crate – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 19\nAsset: Sci-Fi Crate\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:20@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251218T230000
+DTEND:20251219T000000
+SUMMARY:Day 20: Sci-Fi Pistol – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 20\nAsset: Sci-Fi Pistol\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:21@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251219T230000
+DTEND:20251220T000000
+SUMMARY:Day 21: Hover Drone – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 21\nAsset: Hover Drone\nWeek Color: GREEN (#40C463)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:22@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251220T230000
+DTEND:20251221T000000
+SUMMARY:Day 22: Wooden Cart – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 22\nAsset: Wooden Cart\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:23@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251221T230000
+DTEND:20251222T000000
+SUMMARY:Day 23: Tent – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 23\nAsset: Tent\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:24@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251222T230000
+DTEND:20251223T000000
+SUMMARY:Day 24: Minecart – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 24\nAsset: Minecart\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:25@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251223T230000
+DTEND:20251224T000000
+SUMMARY:Day 25: Dock – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 25\nAsset: Dock\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:26@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251224T230000
+DTEND:20251225T000000
+SUMMARY:Day 26: Fireplace – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 26\nAsset: Fireplace\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:27@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251225T230000
+DTEND:20251226T000000
+SUMMARY:Day 27: Medieval Sword – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 27\nAsset: Medieval Sword\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:28@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251226T230000
+DTEND:20251227T000000
+SUMMARY:Day 28: Fantasy Staff – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 28\nAsset: Fantasy Staff\nWeek Color: YELLOW (#FFDD55)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:29@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251227T230000
+DTEND:20251228T000000
+SUMMARY:Day 29: Medieval House – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 29\nAsset: Medieval House\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:30@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251228T230000
+DTEND:20251229T000000
+SUMMARY:Day 30: Sci-Fi Door – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 30\nAsset: Sci-Fi Door\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:31@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251229T230000
+DTEND:20251230T000000
+SUMMARY:Day 31: War Axe – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 31\nAsset: War Axe\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:32@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251230T230000
+DTEND:20251231T000000
+SUMMARY:Day 32: Crossbow – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 32\nAsset: Crossbow\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:33@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20251231T230000
+DTEND:20260101T000000
+SUMMARY:Day 33: Spear – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 33\nAsset: Spear\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:34@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260101T230000
+DTEND:20260102T000000
+SUMMARY:Day 34: Grenade – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 34\nAsset: Grenade\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:35@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260102T230000
+DTEND:20260103T000000
+SUMMARY:Day 35: Katana – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 35\nAsset: Katana\nWeek Color: PURPLE (#A855F7)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:36@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260103T230000
+DTEND:20260104T000000
+SUMMARY:Day 36: Chainsaw – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 36\nAsset: Chainsaw\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:37@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260104T230000
+DTEND:20260105T000000
+SUMMARY:Day 37: Wrench – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 37\nAsset: Wrench\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:38@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260105T230000
+DTEND:20260106T000000
+SUMMARY:Day 38: Drill Machine – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 38\nAsset: Drill Machine\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:39@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260106T230000
+DTEND:20260107T000000
+SUMMARY:Day 39: Welding Tank – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 39\nAsset: Welding Tank\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:40@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260107T230000
+DTEND:20260108T000000
+SUMMARY:Day 40: Factory Valve – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 40\nAsset: Factory Valve\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:41@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260108T230000
+DTEND:20260109T000000
+SUMMARY:Day 41: Scrolls – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 41\nAsset: Scrolls\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:42@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260109T230000
+DTEND:20260110T000000
+SUMMARY:Day 42: Ceiling Lamp – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 42\nAsset: Ceiling Lamp\nWeek Color: ORANGE (#FF914D)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:43@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260110T230000
+DTEND:20260111T000000
+SUMMARY:Day 43: Rug – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 43\nAsset: Rug\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:44@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260111T230000
+DTEND:20260112T000000
+SUMMARY:Day 44: Couch – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 44\nAsset: Couch\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:45@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260112T230000
+DTEND:20260113T000000
+SUMMARY:Day 45: Curtains – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 45\nAsset: Curtains\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:46@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260113T230000
+DTEND:20260114T000000
+SUMMARY:Day 46: Wall Clock – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 46\nAsset: Wall Clock\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:47@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260114T230000
+DTEND:20260115T000000
+SUMMARY:Day 47: Bed – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 47\nAsset: Bed\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:48@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260115T230000
+DTEND:20260116T000000
+SUMMARY:Day 48: Bookshelf – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 48\nAsset: Bookshelf\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:49@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260116T230000
+DTEND:20260117T000000
+SUMMARY:Day 49: Fireplace Tools – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 49\nAsset: Fireplace Tools\nWeek Color: BROWN (#A97458)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:50@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260117T230000
+DTEND:20260118T000000
+SUMMARY:Day 50: Toolbox – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 50\nAsset: Toolbox\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:51@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260118T230000
+DTEND:20260119T000000
+SUMMARY:Day 51: Realistic Tree – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 51\nAsset: Realistic Tree\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:52@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260119T230000
+DTEND:20260120T000000
+SUMMARY:Day 52: Bushes – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 52\nAsset: Bushes\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:53@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260120T230000
+DTEND:20260121T000000
+SUMMARY:Day 53: Fallen Log – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 53\nAsset: Fallen Log\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:54@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260121T230000
+DTEND:20260122T000000
+SUMMARY:Day 54: Palm Tree – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 54\nAsset: Palm Tree\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:55@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260122T230000
+DTEND:20260123T000000
+SUMMARY:Day 55: Muddy Ground – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 55\nAsset: Muddy Ground\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:56@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260123T230000
+DTEND:20260124T000000
+SUMMARY:Day 56: Well Stones – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 56\nAsset: Well Stones\nWeek Color: OLIVE (#8BA870)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:57@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260124T230000
+DTEND:20260125T000000
+SUMMARY:Day 57: Flower Pack – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 57\nAsset: Flower Pack\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:58@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260125T230000
+DTEND:20260126T000000
+SUMMARY:Day 58: Cave Entrance – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 58\nAsset: Cave Entrance\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:59@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260126T230000
+DTEND:20260127T000000
+SUMMARY:Day 59: Rock Wall – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 59\nAsset: Rock Wall\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:60@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260127T230000
+DTEND:20260128T000000
+SUMMARY:Day 60: Forest Debris Pack – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 60\nAsset: Forest Debris Pack\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:61@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260128T230000
+DTEND:20260129T000000
+SUMMARY:Day 61: Stone Bridge – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 61\nAsset: Stone Bridge\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:62@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260129T230000
+DTEND:20260130T000000
+SUMMARY:Day 62: Broken Pillar – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 62\nAsset: Broken Pillar\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:63@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260130T230000
+DTEND:20260131T000000
+SUMMARY:Day 63: Watchtower – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 63\nAsset: Watchtower\nWeek Color: GRAY (#B8B8B8)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:64@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260131T230000
+DTEND:20260201T000000
+SUMMARY:Day 64: Gate Archway – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 64\nAsset: Gate Archway\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:65@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260201T230000
+DTEND:20260202T000000
+SUMMARY:Day 65: Medieval Oven – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 65\nAsset: Medieval Oven\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:66@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260202T230000
+DTEND:20260203T000000
+SUMMARY:Day 66: Old Shack – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 66\nAsset: Old Shack\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:67@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260203T230000
+DTEND:20260204T000000
+SUMMARY:Day 67: Wooden Fence Set – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 67\nAsset: Wooden Fence Set\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:68@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260204T230000
+DTEND:20260205T000000
+SUMMARY:Day 68: Stone Wall – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 68\nAsset: Stone Wall\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:69@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260205T230000
+DTEND:20260206T000000
+SUMMARY:Day 69: Bridge – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 69\nAsset: Bridge\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:70@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260206T230000
+DTEND:20260207T000000
+SUMMARY:Day 70: Castle Gate – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 70\nAsset: Castle Gate\nWeek Color: PINK (#FF6FB5)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:71@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260207T230000
+DTEND:20260208T000000
+SUMMARY:Day 71: Stylized Rocks – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 71\nAsset: Stylized Rocks\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:72@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260208T230000
+DTEND:20260209T000000
+SUMMARY:Day 72: Stylized Crystals – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 72\nAsset: Stylized Crystals\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:73@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260209T230000
+DTEND:20260210T000000
+SUMMARY:Day 73: Stylized Barrel – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 73\nAsset: Stylized Barrel\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:74@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260210T230000
+DTEND:20260211T000000
+SUMMARY:Day 74: Stylized Sword – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 74\nAsset: Stylized Sword\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:75@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260211T230000
+DTEND:20260212T000000
+SUMMARY:Day 75: Stylized Shield Variant – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 75\nAsset: Stylized Shield Variant\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:76@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260212T230000
+DTEND:20260213T000000
+SUMMARY:Day 76: Stylized Cauldron – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 76\nAsset: Stylized Cauldron\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:77@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260213T230000
+DTEND:20260214T000000
+SUMMARY:Day 77: Stylized House – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 77\nAsset: Stylized House\nWeek Color: INDIGO (#5A5DF0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:78@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260214T230000
+DTEND:20260215T000000
+SUMMARY:Day 78: Stylized Bench – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 78\nAsset: Stylized Bench\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:79@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260215T230000
+DTEND:20260216T000000
+SUMMARY:Day 79: Stylized Food Set 2 – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 79\nAsset: Stylized Food Set 2\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:80@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260216T230000
+DTEND:20260217T000000
+SUMMARY:Day 80: Stylized Tree Variant – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 80\nAsset: Stylized Tree Variant\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:81@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260217T230000
+DTEND:20260218T000000
+SUMMARY:Day 81: Sci-Fi Door Variant – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 81\nAsset: Sci-Fi Door Variant\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:82@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260218T230000
+DTEND:20260219T000000
+SUMMARY:Day 82: Control Panel – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 82\nAsset: Control Panel\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:83@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260219T230000
+DTEND:20260220T000000
+SUMMARY:Day 83: Space Helmet – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 83\nAsset: Space Helmet\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:84@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260220T230000
+DTEND:20260221T000000
+SUMMARY:Day 84: Generator Machine – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 84\nAsset: Generator Machine\nWeek Color: MAGENTA (#E041E0)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:85@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260221T230000
+DTEND:20260222T000000
+SUMMARY:Day 85: Fuel Canister – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 85\nAsset: Fuel Canister\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:86@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260222T230000
+DTEND:20260223T000000
+SUMMARY:Day 86: Teleporter Pad – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 86\nAsset: Teleporter Pad\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:87@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260223T230000
+DTEND:20260224T000000
+SUMMARY:Day 87: Sci-Fi Corridor Wall – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 87\nAsset: Sci-Fi Corridor Wall\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:88@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260224T230000
+DTEND:20260225T000000
+SUMMARY:Day 88: Energy Sword – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 88\nAsset: Energy Sword\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:89@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260225T230000
+DTEND:20260226T000000
+SUMMARY:Day 89: Sci-Fi Drone Variant – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 89\nAsset: Sci-Fi Drone Variant\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:90@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260226T230000
+DTEND:20260227T000000
+SUMMARY:Day 90: Greeble Pack – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 90\nAsset: Greeble Pack\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:91@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260227T230000
+DTEND:20260228T000000
+SUMMARY:Day 91: Old Radio – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 91\nAsset: Old Radio\nWeek Color: CYAN (#3FC1C9)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:92@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260228T230000
+DTEND:20260301T000000
+SUMMARY:Day 92: Laptop – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 92\nAsset: Laptop\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:93@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260301T230000
+DTEND:20260302T000000
+SUMMARY:Day 93: Mobile Phone – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 93\nAsset: Mobile Phone\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:94@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260302T230000
+DTEND:20260303T000000
+SUMMARY:Day 94: CCTV Camera – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 94\nAsset: CCTV Camera\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:95@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260303T230000
+DTEND:20260304T000000
+SUMMARY:Day 95: Router – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 95\nAsset: Router\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:96@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260304T230000
+DTEND:20260305T000000
+SUMMARY:Day 96: VR Headset – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 96\nAsset: VR Headset\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:97@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260305T230000
+DTEND:20260306T000000
+SUMMARY:Day 97: Headphones – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 97\nAsset: Headphones\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:98@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260306T230000
+DTEND:20260307T000000
+SUMMARY:Day 98: Keyboard – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 98\nAsset: Keyboard\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:99@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260307T230000
+DTEND:20260308T000000
+SUMMARY:Day 99: Mouse – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 99\nAsset: Mouse\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+BEGIN:VEVENT
+UID:100@blenderchallenge
+DTSTAMP:20251129T133706Z
+DTSTART:20260308T230000
+DTEND:20260309T000000
+SUMMARY:Day 100: Flash Drive – Model • UV • Texture
+DESCRIPTION:100 DAYS BLENDER CHALLENGE – DAY 100\nAsset: Flash Drive\nWeek Color: OBSIDIAN (#1E1E1E)\nObjectives:\n- MODEL the asset in Blender\n- UV UNWRAP (fix stretching, texel density, clean packing)\n- TEXTURE in Substance Painter (roughness, wear, AO)\n- EXPORT renders for ArtStation (clay, PBR, details)
+END:VEVENT
+END:VCALENDAR
