@@ -12,33 +12,52 @@ namespace NovaSystem
 {
     public partial class reports : Form
     {
-        private readonly string devConnectionString = @"Data Source=DESKTOP-60H5VBK\MSSQLSERVER01;Initial Catalog=NovasystemDB;Integrated Security=True;TrustServerCertificate=True;Connect Timeout=5;";
-        private readonly string clientConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=NovasystemDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;Connect Timeout=5;";
-        private string activeConnectionString;
+        // RAM optimization and faster timeout to prevent UI hanging
+        private readonly string devConnectionString = @"Data Source=DESKTOP-60H5VBK\MSSQLSERVER01;Initial Catalog=NovasystemDB;Integrated Security=True;TrustServerCertificate=True;Connect Timeout=2;";
+        private readonly string clientConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=NovasystemDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;Connect Timeout=2;";
+
+        // Static cache ensures we only "search" for the database once per application session
+        private static string cachedConnectionString;
 
         private PrintDocument printDoc = new PrintDocument();
         private PrintPreviewDialog previewDlg = new PrintPreviewDialog();
         private int rowIndex = 0;
-        private string currentReportTitle = "GOLDEN ANGELS REPORT";
+        private string currentReportTitle = "GENERAL REPORT";
 
         public reports()
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-            activeConnectionString = ResolveConnectionString();
+
+            // Set up printing defaults
             printDoc.PrintPage += PrintDocument_PrintPage;
-            printDoc.DefaultPageSettings.Landscape = true;
+            printDoc.DefaultPageSettings.Landscape = true; // Better for wide data tables
         }
 
         private async void reports_Load(object sender, EventArgs e)
         {
             SetUserLabel();
 
-            // Load initial data and counts simultaneously for speed
-            await Task.WhenAll(
-                RefreshCosmeticsDataAsync(),
-                UpdateCosmeticBatchCountAsync()
-            );
+            try
+            {
+                // FIX: Resolve connection in a background task to stop the 4-second hang
+                if (string.IsNullOrEmpty(cachedConnectionString))
+                {
+                    this.Cursor = Cursors.WaitCursor;
+                    cachedConnectionString = await Task.Run(() => ResolveConnectionString());
+                    this.Cursor = Cursors.Default;
+                }
+
+                // Load initial data and counts simultaneously
+                await Task.WhenAll(
+                    RefreshCosmeticsDataAsync(),
+                    UpdateCosmeticBatchCountAsync()
+                );
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Startup Error: " + ex.Message);
+            }
         }
 
         private void SetUserLabel()
@@ -46,13 +65,26 @@ namespace NovaSystem
             LoginTag.Text = $"Logged in: {UserSession.Fullname ?? UserSession.Username}";
         }
 
-        // ========================= CORE DATA ENGINES (FIXED CONVERSION ERROR) =========================
+        private string ResolveConnectionString()
+        {
+            if (TestConnection(devConnectionString)) return devConnectionString;
+            if (TestConnection(clientConnectionString)) return clientConnectionString;
+            return clientConnectionString; // Default fallback
+        }
+
+        private bool TestConnection(string cs)
+        {
+            try { using (SqlConnection c = new SqlConnection(cs)) { c.Open(); return true; } }
+            catch { return false; }
+        }
+
+        // ========================= CORE DATA ENGINES =========================
 
         private async Task RefreshCosmeticsDataAsync()
         {
-            currentReportTitle = "GOLDEN ANGLES AFRICA COSMETICS BATCH REPORT";
+            if (string.IsNullOrEmpty(cachedConnectionString)) return;
+            currentReportTitle = "COSMETICS BATCH REPORT";
 
-            // FIX: Added CAST to VARCHAR to prevent "N/A" conversion errors
             string query = @"
             SELECT 
                 ISNULL(CAST(C.BatchNumber AS VARCHAR(50)), 'N/A') AS [Batch No],
@@ -78,7 +110,6 @@ namespace NovaSystem
 
             if (!string.IsNullOrWhiteSpace(txtBatchNo.Text))
             {
-                // FIX: CAST BatchNumber to VARCHAR so LIKE works with the search string
                 baseQuery += " AND (P.ProductName LIKE @batch OR CAST(C.BatchNumber AS VARCHAR(50)) LIKE @batch)";
                 parameters.Add(new SqlParameter("@batch", $"%{txtBatchNo.Text.Trim()}%"));
             }
@@ -95,6 +126,8 @@ namespace NovaSystem
 
         private async Task ExecuteReportQueryAsync(string query, List<SqlParameter> parameters)
         {
+            if (string.IsNullOrEmpty(cachedConnectionString)) return;
+
             dgvReport.Enabled = false;
             this.Cursor = Cursors.WaitCursor;
 
@@ -102,7 +135,7 @@ namespace NovaSystem
             {
                 DataTable dt = await Task.Run(() =>
                 {
-                    using (SqlConnection conn = new SqlConnection(activeConnectionString))
+                    using (SqlConnection conn = new SqlConnection(cachedConnectionString))
                     {
                         using (SqlCommand cmd = new SqlCommand(query, conn))
                         {
@@ -131,9 +164,10 @@ namespace NovaSystem
 
         private async Task UpdateCosmeticBatchCountAsync()
         {
+            if (string.IsNullOrEmpty(cachedConnectionString)) return;
             try
             {
-                using (SqlConnection conn = new SqlConnection(activeConnectionString))
+                using (SqlConnection conn = new SqlConnection(cachedConnectionString))
                 {
                     await conn.OpenAsync();
                     using (SqlCommand cmd = new SqlCommand("SELECT COUNT(DISTINCT BatchNumber) FROM Cosmetics", conn))
@@ -150,18 +184,19 @@ namespace NovaSystem
         {
             dgvReport.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvReport.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(245, 245, 245);
+            dgvReport.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 9, FontStyle.Bold);
 
             if (dgvReport.Columns.Contains("Price")) dgvReport.Columns["Price"].DefaultCellStyle.Format = "N2";
             if (dgvReport.Columns.Contains("Total")) dgvReport.Columns["Total"].DefaultCellStyle.Format = "N2";
         }
 
-        // ========================= UI EVENT HANDLERS (DESIGNER COMPATIBILITY) =========================
+        // ========================= UI EVENT HANDLERS =========================
 
         private async void btnFilter_Click(object sender, EventArgs e) => await RefreshCosmeticsDataAsync();
 
         private async void btnStaffFilter_Click(object sender, EventArgs e)
         {
-            currentReportTitle = "GOLDEN ANGLES AFRICA STAFF ORDER REPORT";
+            currentReportTitle = "STAFF ORDER REPORT";
             string query = @"SELECT OrderID AS [ID], FORMAT(OrderDate, 'dd/MM/yyyy') AS [Date], StaffName AS [Staff], TotalAmount AS [Total] 
                              FROM Orders WHERE StaffName LIKE @staff ORDER BY OrderDate DESC";
 
@@ -171,14 +206,14 @@ namespace NovaSystem
 
         private async void lblInventoryStatus_Click(object sender, EventArgs e)
         {
-            currentReportTitle = "GOLDEN ANGLES AFRICA INVENTORY STATUS REPORT";
+            currentReportTitle = "INVENTORY STATUS REPORT";
             string query = "SELECT ProductName [Product], Category, Quantity [Stock], Status, SellingPrice [Price] FROM Products";
             await ExecuteReportQueryAsync(query, null);
         }
 
         private async void lblStaffsales_Click_1(object sender, EventArgs e)
         {
-            currentReportTitle = "GOLDEN ANGLES AFRICA STAFF ORDER REPORT";
+            currentReportTitle = "STAFF ORDER REPORT";
             string query = "SELECT OrderID [ID], OrderDate [Date], StaffName [Staff], TotalAmount [Total] FROM Orders ORDER BY OrderDate DESC";
             await ExecuteReportQueryAsync(query, null);
         }
@@ -195,50 +230,83 @@ namespace NovaSystem
 
         private void BtnCheckout_Click(object sender, EventArgs e)
         {
-            if (dgvReport.Rows.Count == 0) return;
+            if (dgvReport.Rows.Count == 0)
+            {
+                MessageBox.Show("No data available to print.", "Print Report", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             rowIndex = 0;
             previewDlg.Document = printDoc;
             previewDlg.WindowState = FormWindowState.Maximized;
             previewDlg.ShowDialog();
         }
 
-        // ========================= PRINT ENGINE =========================
+        // ========================= PRINT ENGINE (PROFESSIONAL HEADER) =========================
 
         private void PrintDocument_PrintPage(object sender, PrintPageEventArgs e)
         {
-            Font titleFont = new Font("Arial", 16, FontStyle.Bold);
-            Font headFont = new Font("Arial", 9, FontStyle.Bold);
-            Font bodyFont = new Font("Arial", 8);
-            float x = e.MarginBounds.Left, y = 100;
+            Graphics g = e.Graphics;
+            Font titleFont = new Font("Segoe UI", 18, FontStyle.Bold);
+            Font subTitleFont = new Font("Segoe UI", 10, FontStyle.Regular);
+            Font headFont = new Font("Segoe UI", 9, FontStyle.Bold);
+            Font bodyFont = new Font("Segoe UI", 8, FontStyle.Regular);
+
+            float x = e.MarginBounds.Left;
+            float y = 40;
             int totalWidth = e.MarginBounds.Width;
+            StringFormat center = new StringFormat { Alignment = StringAlignment.Center };
 
-            e.Graphics.DrawString(currentReportTitle, titleFont, Brushes.Black, x, 40);
-            e.Graphics.DrawString($"Report Date: {DateTime.Now:g}", bodyFont, Brushes.Gray, x, 70);
-            e.Graphics.DrawLine(Pens.Black, x, 90, e.MarginBounds.Right, 90);
+            // 1. BUSINESS HEADER
+            g.DrawString("GOLDEN ANGLES AFRICA", titleFont, Brushes.Black, new RectangleF(0, y, e.PageBounds.Width, 35), center);
+            y += 35;
+            g.DrawString("Location: Nyamakima CBC Plaza, 3rd Floor, Room T7 | P.O Box: 22450-00400", subTitleFont, Brushes.Black, new RectangleF(0, y, e.PageBounds.Width, 20), center);
+            y += 18;
+            g.DrawString("Tel: 0714484838 / 0116923796", subTitleFont, Brushes.Black, new RectangleF(0, y, e.PageBounds.Width, 20), center);
+            y += 30;
 
-            var cols = dgvReport.Columns.Cast<DataGridViewColumn>().Where(c => c.Visible).ToList();
-            int colWidth = totalWidth / Math.Max(1, cols.Count);
+            // 2. REPORT METADATA
+            g.DrawString(currentReportTitle, headFont, Brushes.Black, x, y);
+            string meta = $"Printed on: {DateTime.Now:F} | User: {UserSession.Fullname ?? UserSession.Username}";
+            g.DrawString(meta, bodyFont, Brushes.DimGray, e.MarginBounds.Right - g.MeasureString(meta, bodyFont).Width, y);
+            y += 12;
+            g.DrawLine(new Pen(Color.Black, 1.5f), x, y, e.MarginBounds.Right, y);
+            y += 15;
 
-            for (int i = 0; i < cols.Count; i++)
+            // 3. TABLE HEADERS
+            var visibleCols = dgvReport.Columns.Cast<DataGridViewColumn>().Where(c => c.Visible).ToList();
+            if (visibleCols.Count == 0) return;
+            int colWidth = totalWidth / visibleCols.Count;
+
+            for (int i = 0; i < visibleCols.Count; i++)
             {
-                e.Graphics.FillRectangle(Brushes.LightGray, x + (i * colWidth), y, colWidth, 25);
-                e.Graphics.DrawRectangle(Pens.Black, x + (i * colWidth), y, colWidth, 25);
-                e.Graphics.DrawString(cols[i].HeaderText, headFont, Brushes.Black, x + (i * colWidth) + 2, y + 5);
+                g.FillRectangle(Brushes.LightGray, x + (i * colWidth), y, colWidth, 25);
+                g.DrawRectangle(Pens.Black, x + (i * colWidth), y, colWidth, 25);
+                g.DrawString(visibleCols[i].HeaderText, headFont, Brushes.Black, x + (i * colWidth) + 5, y + 5);
             }
             y += 25;
 
+            // 4. DATA ROWS
             while (rowIndex < dgvReport.Rows.Count)
             {
-                if (y + 25 > e.MarginBounds.Bottom) { e.HasMorePages = true; return; }
-                for (int i = 0; i < cols.Count; i++)
+                if (y + 25 > e.MarginBounds.Bottom)
                 {
-                    string val = dgvReport.Rows[rowIndex].Cells[cols[i].Index].Value?.ToString() ?? "";
-                    e.Graphics.DrawRectangle(Pens.Black, x + (i * colWidth), y, colWidth, 20);
-                    e.Graphics.DrawString(val, bodyFont, Brushes.Black, new RectangleF(x + (i * colWidth) + 2, y + 2, colWidth - 2, 18));
+                    e.HasMorePages = true;
+                    return;
                 }
-                y += 20; rowIndex++;
+
+                DataGridViewRow row = dgvReport.Rows[rowIndex];
+                for (int i = 0; i < visibleCols.Count; i++)
+                {
+                    string cellValue = row.Cells[visibleCols[i].Index].Value?.ToString() ?? "";
+                    g.DrawRectangle(Pens.Black, x + (i * colWidth), y, colWidth, 22);
+                    g.DrawString(cellValue, bodyFont, Brushes.Black, new RectangleF(x + (i * colWidth) + 5, y + 4, colWidth - 5, 18));
+                }
+                y += 22;
+                rowIndex++;
             }
-            e.HasMorePages = false; rowIndex = 0;
+
+            e.HasMorePages = false;
+            rowIndex = 0;
         }
 
         // ========================= NAVIGATION & HELPERS =========================
@@ -250,10 +318,6 @@ namespace NovaSystem
         private void BtnCosmetics_Click(object sender, EventArgs e) => SmoothNavigate(new Cosmetics());
         private void button1_Click(object sender, EventArgs e) => SmoothNavigate(new ShoeWear());
 
-        private string ResolveConnectionString() => TestConnection(devConnectionString) ? devConnectionString : clientConnectionString;
-        private bool TestConnection(string cs) { try { using (var c = new SqlConnection(cs)) { c.Open(); return true; } } catch { return false; } }
-
-        // Designer required paint methods
         private void panel1_Paint(object sender, PaintEventArgs e) { }
         private void panel3_Paint(object sender, PaintEventArgs e) { }
     }

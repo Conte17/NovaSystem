@@ -205,7 +205,7 @@
             // 
             cmbBoxProdName.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbBoxProdName.FormattingEnabled = true;
-            cmbBoxProdName.Items.AddRange(new object[] { "Body lotion", "Emollient  oil ", "Hair mask ", "Lipbalm ", "Hand cream ", "Shower gel ", "Shampoo  ", "Foot cream ", "Sunscreen spray ", "Face cream ", "Hair mask ", "Hand cream", "Eye cream", "Firming  gel", "Eye mask", "Face mask ", "Face toner ", "Face serum ", "Face lotion", "Face cleanser ", "Cleaning  moose  ", "Body lotion ", "Turmeric soap ", "Cleanser", "Toner ", "Body scrub ", "Face serum", "Face lotion ", "Eye cream", "Face cream ", "Face serum ", "Face mask ", "Face lotion ", "Cleanser ", "Eye cream" });
+            cmbBoxProdName.Items.AddRange(new object[] { "Body lotion", "Emollient  oil ", "Hair mask ", "Lipbalm ", "Hand cream ", "Shower gel ", "Shampoo  ", "Foot cream ", "Sunscreen spray ", "Face cream ", "Hair mask ", "Hand cream", "Eye cream", "Firming  gel", "Eye mask", "Face mask ", "Face toner ", "Face serum ", "Face lotion", "Face cleanser ", "Cleaning  moose  ", "Body lotion ", "Turmeric soap ", "Cleanser", "Toner ", "Body scrub ", "Face serum", "Face lotion ", "Eye cream", "Face cream ", "Face serum ", "Face mask ", "Face lotion ", "Cleanser ", "Eye cream", "Curling cream ", "Custard and shine gel ", "Strawberry lip scrub ", "Orange lip scrub ", "Honey peach lip scrub ", "Coconut lip balm", "Repair serum ", "Coffee scrub ", "Blueberry scrub ", "Mango scrub ", "Sunscreen cream ", "Sunscreen spray ", "Black mask ", "Peel off mask ", "Hair mask ", "Body lotion", "Kiwi  shower gel ", "Blueberry shower gel", "Men cleanser", "Turmeric scrub", "24k gold" });
             cmbBoxProdName.Location = new Point(993, 62);
             cmbBoxProdName.Name = "cmbBoxProdName";
             cmbBoxProdName.Size = new Size(288, 36);
@@ -215,7 +215,7 @@
             // 
             ComboCategory.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ComboCategory.FormattingEnabled = true;
-            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicylic Acid" });
+            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicylic Acid", "Cantu", "Niacinamide", "shower gel" });
             ComboCategory.Location = new Point(513, 62);
             ComboCategory.Name = "ComboCategory";
             ComboCategory.Size = new Size(231, 36);

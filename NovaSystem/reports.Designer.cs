@@ -60,9 +60,9 @@
             txtStaffname = new TextBox();
             label9 = new Label();
             btnStaffFilter = new Button();
+            label8 = new Label();
             ComboCategory = new ComboBox();
             cmbBoxProdName = new ComboBox();
-            label8 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -345,7 +345,7 @@
             // 
             // txtBatchNo
             // 
-            txtBatchNo.Location = new Point(462, 643);
+            txtBatchNo.Location = new Point(462, 646);
             txtBatchNo.Name = "txtBatchNo";
             txtBatchNo.Size = new Size(138, 27);
             txtBatchNo.TabIndex = 24;
@@ -366,7 +366,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Calibri", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(623, 643);
+            label6.Location = new Point(606, 643);
             label6.Name = "label6";
             label6.Size = new Size(194, 28);
             label6.TabIndex = 27;
@@ -455,26 +455,6 @@
             btnStaffFilter.UseVisualStyleBackColor = false;
             btnStaffFilter.Click += btnStaffFilter_Click;
             // 
-            // ComboCategory
-            // 
-            ComboCategory.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ComboCategory.FormattingEnabled = true;
-            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Tumericy", "Vitamin  c" });
-            ComboCategory.Location = new Point(823, 639);
-            ComboCategory.Name = "ComboCategory";
-            ComboCategory.Size = new Size(203, 36);
-            ComboCategory.TabIndex = 37;
-            // 
-            // cmbBoxProdName
-            // 
-            cmbBoxProdName.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cmbBoxProdName.FormattingEnabled = true;
-            cmbBoxProdName.Items.AddRange(new object[] { "Body lotion", "Emollient  oil ", "Hair mask ", "Lipbalm ", "Hand cream ", "Shower gel ", "Shampoo  ", "Foot cream ", "Sunscreen spray ", "Face cream ", "Hair mask ", "Hand cream", "Eye cream", "Firming  gel", "Eye mask", "Face mask ", "Face toner ", "Face serum ", "Face lotion", "Face cleanser ", "Cleaning  moose  ", "Body lotion ", "Turmeric soap ", "Cleanser", "Toner ", "Body scrub ", "Face serum", "Face lotion ", "Eye cream", "Face cream ", "Face serum ", "Face mask ", "Face lotion ", "Cleanser ", "Eye cream" });
-            cmbBoxProdName.Location = new Point(1194, 638);
-            cmbBoxProdName.Name = "cmbBoxProdName";
-            cmbBoxProdName.Size = new Size(209, 36);
-            cmbBoxProdName.TabIndex = 38;
-            // 
             // label8
             // 
             label8.AutoSize = true;
@@ -486,15 +466,35 @@
             label8.TabIndex = 39;
             label8.Text = "Product Name";
             // 
+            // ComboCategory
+            // 
+            ComboCategory.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ComboCategory.FormattingEnabled = true;
+            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicylic Acid", "Cantu", "Niacinamide", "shower gel" });
+            ComboCategory.Location = new Point(823, 639);
+            ComboCategory.Name = "ComboCategory";
+            ComboCategory.Size = new Size(212, 36);
+            ComboCategory.TabIndex = 42;
+            // 
+            // cmbBoxProdName
+            // 
+            cmbBoxProdName.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbBoxProdName.FormattingEnabled = true;
+            cmbBoxProdName.Items.AddRange(new object[] { "Body lotion", "Emollient  oil ", "Hair mask ", "Lipbalm ", "Hand cream ", "Shower gel ", "Shampoo  ", "Foot cream ", "Sunscreen spray ", "Face cream ", "Hair mask ", "Hand cream", "Eye cream", "Firming  gel", "Eye mask", "Face mask ", "Face toner ", "Face serum ", "Face lotion", "Face cleanser ", "Cleaning  moose  ", "Body lotion ", "Turmeric soap ", "Cleanser", "Toner ", "Body scrub ", "Face serum", "Face lotion ", "Eye cream", "Face cream ", "Face serum ", "Face mask ", "Face lotion ", "Cleanser ", "Eye cream", "Curling cream ", "Custard and shine gel ", "Strawberry lip scrub ", "Orange lip scrub ", "Honey peach lip scrub ", "Coconut lip balm", "Repair serum ", "Coffee scrub ", "Blueberry scrub ", "Mango scrub ", "Sunscreen cream ", "Sunscreen spray ", "Black mask ", "Peel off mask ", "Hair mask ", "Body lotion", "Kiwi  shower gel ", "Blueberry shower gel", "Men cleanser", "Turmeric scrub", "24k gold" });
+            cmbBoxProdName.Location = new Point(1194, 637);
+            cmbBoxProdName.Name = "cmbBoxProdName";
+            cmbBoxProdName.Size = new Size(208, 36);
+            cmbBoxProdName.TabIndex = 43;
+            // 
             // reports
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 76);
             ClientSize = new Size(1836, 950);
-            Controls.Add(label8);
             Controls.Add(cmbBoxProdName);
             Controls.Add(ComboCategory);
+            Controls.Add(label8);
             Controls.Add(btnStaffFilter);
             Controls.Add(label9);
             Controls.Add(txtStaffname);
@@ -559,8 +559,8 @@
         private TextBox txtStaffname;
         private Label label9;
         private Button btnStaffFilter;
+        private Label label8;
         private ComboBox ComboCategory;
         private ComboBox cmbBoxProdName;
-        private Label label8;
     }
 }
