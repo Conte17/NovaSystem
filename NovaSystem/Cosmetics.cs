@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
@@ -10,16 +11,20 @@ namespace NovaSystem
 {
     public partial class Cosmetics : Form
     {
-        // Added Connect Timeout=3 for faster failure detection
-        private readonly string devConnectionString = @"Data Source=DESKTOP-60H5VBK\MSSQLSERVER01;Initial Catalog=NovasystemDB;Integrated Security=True;TrustServerCertificate=True;Connect Timeout=3;";
-        private readonly string clientConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=NovasystemDB;Integrated Security=True;TrustServerCertificate=True;Connect Timeout=3;";
-        private string activeConnectionString;
+        // RAM OPTIMIZATION: Small packet size and pooling for 4GB machines
+        private const string TuningOptions = "Connect Timeout=3;Pooling=true;Max Pool Size=10;Packet Size=4096;";
+
+        private readonly string devConnectionString = $@"Data Source=DESKTOP-60H5VBK\MSSQLSERVER01;Initial Catalog=NovasystemDB;Integrated Security=True;TrustServerCertificate=True;{TuningOptions}";
+        private readonly string clientConnectionString = $@"Data Source=.\SQLEXPRESS;Initial Catalog=NovasystemDB;Integrated Security=True;TrustServerCertificate=True;{TuningOptions}";
+
+        // Static prevents the "Resolve" logic from re-running every time you open this form
+        private static string activeConnectionString;
 
         public Cosmetics()
         {
             InitializeComponent();
-            this.DoubleBuffered = true; // Prevents UI flickering
-            activeConnectionString = ResolveConnectionString();
+            this.DoubleBuffered = true;
+            if (activeConnectionString == null) activeConnectionString = ResolveConnectionString();
         }
 
         private string ResolveConnectionString()
@@ -35,7 +40,6 @@ namespace NovaSystem
             catch { return false; }
         }
 
-        // Optimized to use OpenAsync
         private async Task<SqlConnection> GetConnectionAsync()
         {
             if (activeConnectionString == null) return null;
@@ -47,20 +51,13 @@ namespace NovaSystem
         private async void Cosmetics_Load(object sender, EventArgs e)
         {
             ApplyTheme();
-            ComboCategory.Items.Clear();
-            ComboCategory.Items.AddRange(new string[] { "Coconut", "Collagen", "Salicylic Acid", "Turmeric", "Vitamin C" });
-
-            // Refresh data without freezing the window
+            // Whatever you type in the Designer "Items" collection will stay.
             await RefreshDataAsync();
         }
 
         private void ComboCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cmbBoxProdName.Items.Clear();
-            string category = ComboCategory.Text.Trim();
-            if (category == "Salicylic Acid") cmbBoxProdName.Items.AddRange(new string[] { "Face Wash", "Serum", "Exfoliant", "Face mask" });
-            else if (category == "Coconut") cmbBoxProdName.Items.AddRange(new string[] { "Body lotion", "Hair mask" });
-            else if (category == "Collagen") cmbBoxProdName.Items.AddRange(new string[] { "Face cream", "Eye mask", "Face mask" });
+            // Logic removed to prevent overwriting Designer-set items
         }
 
         private async void BtnSave_Click(object sender, EventArgs e)
@@ -80,7 +77,6 @@ namespace NovaSystem
             this.Cursor = Cursors.WaitCursor;
             try
             {
-                // Run heavy DB transaction on a background thread to keep UI smooth
                 await Task.Run(async () => {
                     using (var conn = new SqlConnection(activeConnectionString))
                     {
@@ -89,9 +85,9 @@ namespace NovaSystem
                         {
                             try
                             {
-                                // 1. Get Batch Number
-                                SqlCommand bCmd = new SqlCommand("SELECT ISNULL(MAX(BatchNumber), 0) + 1 FROM Products WHERE ProductName = @N", conn, trans);
-                                bCmd.Parameters.AddWithValue("@N", prodName);
+                                // 1. GLOBAL BATCH NUMBER: Max across system + 1
+                                // This allows adding the same product again as a new batch immediately
+                                SqlCommand bCmd = new SqlCommand("SELECT ISNULL(MAX(BatchNumber), 0) + 1 FROM Products", conn, trans);
                                 int batchNumber = Convert.ToInt32(await bCmd.ExecuteScalarAsync());
 
                                 // 2. Insert Main Product Entry
@@ -107,21 +103,35 @@ namespace NovaSystem
 
                                 int productID = Convert.ToInt32(await pCmd.ExecuteScalarAsync());
 
-                                // 3. Bulk Insert Cosmetics Units
+                                // 3. UNIQUE SKU GENERATION (Optimized for 4GB RAM)
                                 string catInit = GetInitials(category);
                                 string prodInit = GetInitials(prodName);
+                                string barcode = txtBarcode.Text.Trim();
+
+                                // Generate a unique seed based on current time ticks to prevent duplicate SKUs
+                                string uniqueSeed = DateTime.Now.Ticks.ToString();
+                                uniqueSeed = uniqueSeed.Substring(uniqueSeed.Length - 5);
+
+                                StringBuilder sqlBatch = new StringBuilder();
+                                sqlBatch.Append("INSERT INTO Cosmetics (ProductID, BatchNumber, UnitNumber, SKU, Barcode, Status) VALUES ");
 
                                 for (int i = 1; i <= qty; i++)
                                 {
-                                    string sku = $"B{batchNumber:D2}{catInit}{prodInit}{i:D3}";
-                                    SqlCommand cCmd = new SqlCommand(@"INSERT INTO Cosmetics (ProductID, BatchNumber, UnitNumber, SKU, Barcode, Status) 
-                                                                      VALUES (@PID, @BN, @UN, @SKU, @BC, 'Available')", conn, trans);
-                                    cCmd.Parameters.AddWithValue("@PID", productID);
-                                    cCmd.Parameters.AddWithValue("@BN", batchNumber);
-                                    cCmd.Parameters.AddWithValue("@UN", i);
-                                    cCmd.Parameters.AddWithValue("@SKU", sku);
-                                    cCmd.Parameters.AddWithValue("@BC", txtBarcode.Text.Trim());
-                                    await cCmd.ExecuteNonQueryAsync();
+                                    // SKU logic: Batch + Initials + UniqueSeed + UnitNo
+                                    string sku = $"B{batchNumber:D2}{catInit}{prodInit}{uniqueSeed}{i:D3}";
+                                    sqlBatch.Append($"({productID}, {batchNumber}, {i}, '{sku}', '{barcode}', 'Available')");
+
+                                    if (i < qty) sqlBatch.Append(",");
+
+                                    if (i % 100 == 0 || i == qty)
+                                    {
+                                        using (SqlCommand cCmd = new SqlCommand(sqlBatch.ToString(), conn, trans))
+                                        {
+                                            await cCmd.ExecuteNonQueryAsync();
+                                        }
+                                        sqlBatch.Clear();
+                                        if (i < qty) sqlBatch.Append("INSERT INTO Cosmetics (ProductID, BatchNumber, UnitNumber, SKU, Barcode, Status) VALUES ");
+                                    }
                                 }
                                 trans.Commit();
                             }
@@ -131,10 +141,26 @@ namespace NovaSystem
                 });
 
                 MessageBox.Show("Product saved successfully!", "Success");
+
+                // Clear inputs after success
+                ClearFields();
+
                 await RefreshDataAsync();
             }
             catch (Exception ex) { MessageBox.Show("Save Error: " + ex.Message); }
             finally { this.Cursor = Cursors.Default; }
+        }
+
+        private void ClearFields()
+        {
+            cmbBoxProdName.Text = "";
+            ComboCategory.Text = "";
+            txtQuantity.Clear();
+            txtCost.Clear();
+            txtSellingprice.Clear();
+            txtBarcode.Clear();
+            IDcombobox.Text = "";
+            cmbBoxProdName.Focus();
         }
 
         private async void BtnUpdate_Click(object sender, EventArgs e)
@@ -182,17 +208,17 @@ namespace NovaSystem
             {
                 using (var conn = await GetConnectionAsync())
                 {
-                    string q = @"SELECT C.CosmeticID, P.ProductName, P.Category, P.BatchNumber, P.Quantity AS Stock, 
+                    string q = @"SELECT TOP 500 C.CosmeticID, P.ProductName, P.Category, P.BatchNumber, P.Quantity AS Stock, 
                                  P.SellingPrice, C.SKU, C.Status FROM Cosmetics C 
                                  JOIN Products P ON C.ProductID = P.ProductID ORDER BY C.CosmeticID DESC";
 
                     SqlDataAdapter da = new SqlDataAdapter(q, conn);
                     DataTable dt = new DataTable();
-                    await Task.Run(() => da.Fill(dt)); // Fill data in background
+                    await Task.Run(() => da.Fill(dt));
                     dataGridView1.DataSource = dt;
                 }
             }
-            catch { /* Silent catch to prevent crash on refresh */ }
+            catch { }
         }
 
         private string GetInitials(string text)
@@ -225,7 +251,6 @@ namespace NovaSystem
             }
         }
 
-        // Navigation
         private void btnHome_Click(object sender, EventArgs e) { new Form2().Show(); this.Hide(); }
         private void BtnInventory_Click(object sender, EventArgs e) { new Inventory().Show(); this.Hide(); }
         private void BtnSales_Click(object sender, EventArgs e) { new Sales().Show(); this.Hide(); }

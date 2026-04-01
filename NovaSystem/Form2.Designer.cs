@@ -84,6 +84,7 @@
             pictureBox9 = new PictureBox();
             label12 = new Label();
             label15 = new Label();
+            btnCredit = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -108,6 +109,7 @@
             // panel1
             // 
             panel1.BackColor = Color.MediumBlue;
+            panel1.Controls.Add(btnCredit);
             panel1.Controls.Add(BtnOrders);
             panel1.Controls.Add(BtnReports);
             panel1.Controls.Add(btnLogout);
@@ -131,7 +133,7 @@
             BtnOrders.ForeColor = Color.FromArgb(192, 255, 255);
             BtnOrders.Image = (Image)resources.GetObject("BtnOrders.Image");
             BtnOrders.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnOrders.Location = new Point(-3, 664);
+            BtnOrders.Location = new Point(0, 642);
             BtnOrders.Name = "BtnOrders";
             BtnOrders.Size = new Size(314, 50);
             BtnOrders.TabIndex = 13;
@@ -147,7 +149,7 @@
             BtnReports.ForeColor = Color.FromArgb(192, 255, 255);
             BtnReports.Image = (Image)resources.GetObject("BtnReports.Image");
             BtnReports.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnReports.Location = new Point(0, 736);
+            BtnReports.Location = new Point(0, 802);
             BtnReports.Name = "BtnReports";
             BtnReports.Size = new Size(314, 50);
             BtnReports.TabIndex = 12;
@@ -178,7 +180,7 @@
             btnSales.ForeColor = Color.FromArgb(192, 255, 255);
             btnSales.Image = (Image)resources.GetObject("btnSales.Image");
             btnSales.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSales.Location = new Point(-3, 595);
+            btnSales.Location = new Point(-3, 578);
             btnSales.Name = "btnSales";
             btnSales.Size = new Size(314, 50);
             btnSales.TabIndex = 8;
@@ -759,6 +761,22 @@
             label15.TabIndex = 5;
             label15.Text = "Cosmetics Sold";
             // 
+            // btnCredit
+            // 
+            btnCredit.FlatAppearance.BorderSize = 0;
+            btnCredit.FlatStyle = FlatStyle.Flat;
+            btnCredit.Font = new Font("Nirmala UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCredit.ForeColor = Color.FromArgb(192, 255, 255);
+            btnCredit.Image = (Image)resources.GetObject("btnCredit.Image");
+            btnCredit.ImageAlign = ContentAlignment.MiddleLeft;
+            btnCredit.Location = new Point(-3, 717);
+            btnCredit.Name = "btnCredit";
+            btnCredit.Size = new Size(314, 50);
+            btnCredit.TabIndex = 14;
+            btnCredit.Text = "    Credit Section";
+            btnCredit.UseVisualStyleBackColor = true;
+            btnCredit.Click += btnCredit_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -868,5 +886,6 @@
         private Label label12;
         private Label label15;
         private Button BtnOrders;
+        private Button btnCredit;
     }
 }

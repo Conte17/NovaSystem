@@ -467,7 +467,7 @@
             // 
             ComboCategory.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ComboCategory.FormattingEnabled = true;
-            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicyclic" });
+            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicyclic", "hyaluronic", "Cantu", "Niacinamide", "Salt scrub", "Exfoliating ", "shower gel" });
             ComboCategory.Location = new Point(464, 216);
             ComboCategory.Name = "ComboCategory";
             ComboCategory.Size = new Size(231, 36);

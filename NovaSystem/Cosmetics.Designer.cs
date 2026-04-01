@@ -57,9 +57,9 @@
             BtnDelete = new Button();
             IDcombobox = new ComboBox();
             label11 = new Label();
-            cmbBoxProdName = new ComboBox();
             label10 = new Label();
             ComboCategory = new ComboBox();
+            cmbBoxProdName = new ComboBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -400,16 +400,6 @@
             label11.Text = "Product ID ";
             label11.Visible = false;
             // 
-            // cmbBoxProdName
-            // 
-            cmbBoxProdName.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cmbBoxProdName.FormattingEnabled = true;
-            cmbBoxProdName.Items.AddRange(new object[] { "Body lotion", "Emollient  oil ", "Hair mask ", "Lipbalm ", "Hand cream ", "Shower gel ", "Shampoo  ", "Foot cream ", "Sunscreen spray ", "Face cream ", "Hair mask ", "Hand cream", "Eye cream", "Firming  gel", "Eye mask", "Face mask ", "Face toner ", "Face serum ", "Face lotion", "Face cleanser ", "Cleaning  moose  ", "Body lotion ", "Turmeric soap ", "Cleanser", "Toner ", "Body scrub ", "Face serum", "Face lotion ", "Eye cream", "Face cream ", "Face serum ", "Face mask ", "Face lotion ", "Cleanser ", "Eye cream" });
-            cmbBoxProdName.Location = new Point(1005, 87);
-            cmbBoxProdName.Name = "cmbBoxProdName";
-            cmbBoxProdName.Size = new Size(288, 36);
-            cmbBoxProdName.TabIndex = 33;
-            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -425,11 +415,21 @@
             // 
             ComboCategory.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ComboCategory.FormattingEnabled = true;
-            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicylic Acid" });
-            ComboCategory.Location = new Point(525, 91);
+            ComboCategory.Items.AddRange(new object[] { "Coconut", "collagen", "Turmeric", "Vitamin  c", "Salicylic Acid", "Cantu", "Niacinamide", "shower gel" });
+            ComboCategory.Location = new Point(525, 87);
             ComboCategory.Name = "ComboCategory";
-            ComboCategory.Size = new Size(231, 36);
-            ComboCategory.TabIndex = 41;
+            ComboCategory.Size = new Size(229, 36);
+            ComboCategory.TabIndex = 43;
+            // 
+            // cmbBoxProdName
+            // 
+            cmbBoxProdName.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbBoxProdName.FormattingEnabled = true;
+            cmbBoxProdName.Items.AddRange(new object[] { "Body lotion", "Emollient  oil ", "Hair mask ", "Lipbalm ", "Hand cream ", "Shower gel ", "Shampoo  ", "Foot cream ", "Sunscreen spray ", "Face cream ", "Hair mask ", "Hand cream", "Eye cream", "Firming  gel", "Eye mask", "Face mask ", "Face toner ", "Face serum ", "Face lotion", "Face cleanser ", "Cleaning  moose  ", "Body lotion ", "Turmeric soap ", "Cleanser", "Toner ", "Body scrub ", "Face serum", "Face lotion ", "Eye cream", "Face cream ", "Face serum ", "Face mask ", "Face lotion ", "Cleanser ", "Eye cream", "Curling cream ", "Custard and shine gel ", "Strawberry lip scrub ", "Orange lip scrub ", "Honey peach lip scrub ", "Coconut lip balm", "Repair serum ", "Coffee scrub ", "Blueberry scrub ", "Mango scrub ", "Sunscreen cream ", "Sunscreen spray ", "Black mask ", "Peel off mask ", "Hair mask ", "Body lotion", "Kiwi  shower gel ", "Blueberry shower gel", "Men cleanser", "Turmeric scrub", "24k gold" });
+            cmbBoxProdName.Location = new Point(1017, 87);
+            cmbBoxProdName.Name = "cmbBoxProdName";
+            cmbBoxProdName.Size = new Size(280, 36);
+            cmbBoxProdName.TabIndex = 44;
             // 
             // Cosmetics
             // 
@@ -438,9 +438,9 @@
             AutoSize = true;
             BackColor = Color.FromArgb(46, 51, 76);
             ClientSize = new Size(1771, 1021);
+            Controls.Add(cmbBoxProdName);
             Controls.Add(ComboCategory);
             Controls.Add(label10);
-            Controls.Add(cmbBoxProdName);
             Controls.Add(BtnDelete);
             Controls.Add(BtnUpdate);
             Controls.Add(button2);
@@ -504,8 +504,8 @@
         private Button BtnDelete;
         private ComboBox IDcombobox;
         private Label label11;
-        private ComboBox cmbBoxProdName;
         private Label label10;
         private ComboBox ComboCategory;
+        private ComboBox cmbBoxProdName;
     }
 }
